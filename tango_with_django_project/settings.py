@@ -29,7 +29,8 @@ SECRET_KEY = '^^y2xncl)az1ls9$7^z@on)x!tgu7cbercgzifc!s0&#zeaa(l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['stuter12.pythonanywhere.com']
+ALLOWED_HOSTS = ['stuter12.pythonanywhere.com',
+                 'localhost',]
 
 
 # Application definition
@@ -123,6 +124,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-#STATIC_ROOT = '/home/stuter12/tango_with_django_project/static'
 STATICFILES_DIRS = [STATIC_DIR, ]
 
