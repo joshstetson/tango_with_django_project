@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+    <head>
+        <title>Rango</title>
+    </head>
+
+    <body>
+        <div>
+            <a href="/rango/about/">About</a><br/>
+            <p>This tutorial has been put together by Derek Jeter</p>
+            <img src="{% static "images/derekjeter.jpg" %}" alt="Picture of Derek Jeter" />
+        </div>
+        <div>
+            <p>Check out this picture of Charleston</p>
+            <img src="{{ MEDIA_URL }}charleston.jpg" alt="Picture of Charleston" />
+        </div>
+    </body>
+</html>
